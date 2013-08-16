@@ -1,3 +1,4 @@
+# here we are testing the file
 from z3 import *
 
 inHole1 = Function('inHole1', IntSort(), IntSort(),BoolSort())
@@ -76,7 +77,7 @@ if(s.check() == sat):
 	print m
 quit()
 
-
+print "hello"
 
 
 
